@@ -1,0 +1,1496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Chalkboard;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    top: 5%;
+    position: absolute;
+    z-index: 999;
+    height: 7%;
+    width: 100%;
+    /* background-color: black; */
+}
+#nav a{
+    font-size: 1.5vw;
+    color: #fff;
+    text-decoration: none;
+}
+#nav1{
+    z-index: 9999;
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mainscr{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#about{
+    margin-top: 20%;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    /* background-color: #000; */
+}
+#aboutl img{
+    /* background-color: red; */
+    height: 39vw;
+    width: 130vh;
+    margin-left: -10%;
+    position: relative;
+    z-index: inherit;
+}
+#aboutr{
+    position: relative;
+    margin-left: -20%;
+    /* background-color: rgb(170, 170, 224); */
+    height: 100%;
+    width: 60%;
+}
+#aboutr h1{
+    color: white;
+    font-size: 2.5vw;
+    margin-left: 35%;
+    margin-top: -33%;
+    margin-bottom: 4%;
+}
+#aboutr p{
+    /* text-align: center; */
+    color: white;
+    font-size: 30px;
+    margin-left: 4%;
+    margin-right: 7%;
+    margin-top: 45%;
+}
+#aboutr h2{
+    margin-top: -8%;
+    margin-left: 4%;
+    color: white;
+}
+#regis{
+    margin-left: 20%;
+    margin-top: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 6%;
+    width: 20%;
+    background-color: rgb(0, 149, 255);
+}
+#regist{
+    display: none;
+}
+#regis a{
+    text-decoration: none;
+}
+#video{
+    position: relative;
+    z-index: inherit;
+    height: 150%;
+    width: 100%;
+    /* background-color: #000; */
+}
+#nav2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20%;
+    width: 80%;
+    margin-top: -3%;
+    /* background-image: linear-gradient(to top, black, rgb(18, 18, 96)); */
+    margin-left: 10%;
+}
+#navl1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    /* background-color: red; */
+    height: 70%;
+
+}
+#navl1 svg{
+    margin-left: -40%;
+}
+#navl1 h2{
+    margin-left: 5%;
+}
+#navl1 h5{
+    margin-left: -70%;
+   margin-top: 15%;
+}
+#navl2{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   /* background-color: red; */
+   height: 70%;
+}
+#navl2 svg{
+   margin-left: 0%;
+}
+#navl2 h2{
+   margin-left: 5%;
+}
+#navl2 h5{
+    margin-left: -30%;
+   margin-top: 25%;
+}
+#navl3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    /* background-color: red; */
+    height: 70%;
+
+}
+#navl3 svg{
+    margin-left: 0%;
+}
+#navl3 h2{
+    margin-left: 5%;
+}
+#navl3 h5{
+     margin-left: -40%;
+    margin-top: 25%;
+}
+#navl4{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    /* background-color: red; */
+    height: 70%;
+
+}
+#navl4 svg{
+    margin-left: 0%;
+}
+#navl4 h2{
+    margin-left: 5%;
+}
+#navl4 h5{
+     margin-left: -30%;
+    margin-top: 25%;
+}
+#prize{
+    height:70vw;
+    width: 100%;
+    /* background-color: rgb(32, 37, 35); */
+}
+.pdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 15%;
+    left: 10%;
+    height: 35%;
+    width: 80%;
+    /* background-color: red; */
+}
+.pdiv2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    height: 35%;
+    width: 60%;
+    /* background-color: red; */
+}
+.spd1{
+    border-radius: 50px;
+    height: 100%;
+    width: 30%;
+    /* background-color: aquamarine; */
+}
+.spd2{
+    height: 100%;
+    width: 40%;
+    /* background-color: aquamarine; */
+}
+/* #event{
+    height: 150%;
+    width: 100%;
+    background-color: rgb(213, 81, 81);
+}
+#event h1{
+    position: relative;
+    margin-top: -20%;
+    margin-left: 55%;
+    background-color: red;
+    color: #fff;
+}
+.bracket{
+    color: rgb(39, 39, 236);
+} */
+/* .regp{
+    position: relative;
+    top: 57%;
+    height: 12.5%;
+    width: 80%;
+    color: #fff;
+    font-style: italic;
+
+}
+.regpd1{
+    margin-top: 5%;
+    height: 50%;
+    width: 20%;
+
+}
+.regpd1 h1{
+    margin-left: -19%;
+    margin-top: 15%;
+    
+}
+#till{
+    color: rgb(0, 149, 255);
+}
+.regpd1 h2{
+    margin-left: 35%;
+    margin-top: -3%;
+    color: rgb(0, 149, 255);
+}
+.regpd2{
+    margin-top: -5.7%;
+    margin-left: 20%;
+    height: 50%;
+    width: 80%;
+
+}
+#process{
+    margin-left: -40%;
+    color: rgb(0, 149, 255);
+}
+.regpd2 h2{
+    margin-left: 5%;
+    margin-top: -1%;
+    color: rgb(0, 149, 255);
+}
+.regpd2{
+    margin-top: -5.7%;
+    margin-left: 20%;
+    height: 50%;
+    width: 80%;
+
+}
+#process{
+    margin-left: -40%;
+    color: rgb(0, 149, 255);
+}
+.regpd2 h2{
+    margin-left: 5%;
+    margin-top: -1%;
+    color: rgb(0, 149, 255);
+}
+.regpd3 h3{
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: 100;
+} */
+#faq{
+    margin-top: 6%;
+    height: auto;
+    width: 100%;
+    /* background-color: rgb(64, 60, 60); */
+}
+#faq h1{
+    color: #fff;
+    position: relative;
+    left: 5%;
+    /* left: 46%; */
+}
+#mainimg{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: -3%;
+}
+#mainimg1{
+    position: fixed;
+    height: 150%;
+    width: 100%;
+}
+.mainimg2{
+    position: static;
+    margin-top: -69%;
+    z-index: 999;
+    height: 132%;
+    width: 100%;
+}
+.mainimg3{
+    position: static;
+    margin-top: -69%;
+    margin-left: -10%;
+    z-index: 999;
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-left: 10%;
+    position: relative;
+    height: 10vw;
+    width: 80%;
+    /* background-color: grey; */
+}
+.ibox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 74%;
+    width: 25%;
+    color: #fff;
+    /* background-color: red; */
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+#main h1{
+    position: relative;
+    top: 50%;
+    z-index: 999;
+    margin-left: 10%;
+}
+#lak{
+    position: relative;
+    z-index: 999;
+    margin-top: -20%;
+    height: 20%;
+    width: 20%;
+}
+.mainimg5{
+    margin-top: -50%;
+    margin-left: -9%;
+}
+.img5{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -1%;
+    height: 100px;
+    width:110px;
+    /* background-color: red; */
+}
+.faqm1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 17vw;
+    width: 80vw;
+    margin-left: 7%;
+    /* background-color: red; */
+    margin-top: 4%;
+}
+.faq1{
+    /* background-color: rgb(201, 139, 139); */
+    height: 24vw;
+    width: 20vw;
+    margin-top: 5%;
+}
+.faq1 h2{
+    height: 20vw;
+    background-color: red;
+}
+.faq2{
+    height: 24vw;
+    width: 20vw;
+}
+.faq2 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 3vw;
+   margin-bottom: 6%;
+   text-align: center;
+   width: 15vw;
+   margin-left: 10%;
+   margin-top: 15%;
+   backdrop-filter: blur(0px) saturate(200%);
+   -webkit-backdrop-filter: blur(0px) saturate(200%);
+   background-color: rgba(17, 25, 40, 0.55);
+   border-radius: 12px;
+   border: 1px solid rgba(255, 255, 255, 0.125);
+  
+}
+.faq5{
+    /* background-color: rgb(201, 139, 139); */
+    height: 17vw;
+    width: 20vw;
+}
+.faq1 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 3vw;
+   margin-bottom: 6%;
+   text-align: center;
+   width: 15vw;
+   margin-left: 10%;
+   margin-top: 5%;
+   backdrop-filter: blur(0px) saturate(200%);
+   -webkit-backdrop-filter: blur(0px) saturate(200%);
+   background-color: rgba(17, 25, 40, 0.55);
+   border-radius: 12px;
+   border: 1px solid rgba(255, 255, 255, 0.125);
+  
+}
+.faq5 h2{
+   
+   background-color: #a46741;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  height: 2vw;
+  margin-bottom: 6%;
+  width: 15vw;
+  margin-left: 10%;
+  margin-top: 0%;
+  backdrop-filter: blur(0px) saturate(200%);
+  -webkit-backdrop-filter: blur(0px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.55);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+ 
+}
+.space{
+    width: 25vw;
+    margin-top: 5%;
+}
+.faq1 p{
+    /* backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+   padding-top: 10%; */
+    height: 10vw;
+    width: 17vw;
+    font-size: 1vw;
+    margin-top: 7%;
+    margin-left: 7%;
+    text-align: center;
+}
+.faq5 p{
+    /* backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+   padding-top: 10%; */
+    height: 10vw;
+    width: 17vw;
+    font-size: 1vw;
+    margin-top: 7%;
+    margin-left: 7%;
+    text-align: center;
+}
+
+
+
+
+#octa{
+    margin-top: -30%;
+    margin-left: 30%;
+}
+#octath{
+    color: floralwhite;
+    font-family: Chalkboard;
+    font-size: 150px;
+}
+#navdha{
+    margin-left: 10%;
+    margin-top: -20%;
+    color: floralwhite;
+    font-family: Chalkboard;
+    font-size: 100px;
+}
+
+#year{
+    margin-left: 5%;
+    color: floralwhite;
+    font-size: 100px;
+    font-family: Chalkboard;
+}
+#event{
+  height: 40%;
+  width: 100%;
+  /* background-color: red; */
+}
+#event h1{
+   margin-left: 40%;
+   position: relative;
+   top: 5%;
+}
+#event{
+    height: 150%;
+    width: 100%;
+    /* background-color: rgb(34, 33, 33); */
+}
+#event h1{
+    position: relative;
+    /* left: 42%; */
+    top: 4%;
+    color: #fff;
+}
+.bracket{
+    color: rgb(39, 39, 236);
+}
+.regp{
+    position: relative;
+    /* left: 10%; */
+    top: 7%;
+    height: 12.5%;
+    width: 80%;
+    margin-left: 10%;
+    color: #fff;
+    font-style: italic;
+    /* background-color: rgb(44, 41, 40); */
+}
+.regpd1{
+    margin-top: 5%;
+    height: 50%;
+    width: 20%;
+    /* background-color: rgb(44, 41, 40); */
+}
+.regpd1 h1{
+    margin-left: -19%;
+    margin-top: 15%;
+    
+}
+#till{
+    color: rgb(0, 149, 255);
+}
+.regpd1 h2{
+    margin-left: 35%;
+    margin-top: -3%;
+    color: rgb(0, 149, 255);
+}
+.regpd2{
+    margin-top: -5.7%;
+    margin-left: 20%;
+    height: 50%;
+    width: 80%;
+    /* background-color: rgb(49, 57, 61); */
+}
+#process{
+    margin-left: -40%;
+    color: rgb(0, 149, 255);
+}
+.regpd2 h2{
+    margin-left: 5%;
+    margin-top: -1%;
+    color: rgb(0, 149, 255);
+}
+.regpd3 h3{
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: 100;
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+  .slide-track {
+    overflow: hidden;
+    position: relative;
+    animation: scroll 10s linear infinite;
+    display: flex;
+    word-spacing: 5%;
+    
+  }
+
+
+
+
+
+
+
+
+#box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    height:50%;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: -20%;
+}
+ header{
+    position: relative;
+    height: 40%;
+    width: 99.8%;
+  border: 2px solid silver;
+    display: flex;
+
+ }
+.text{
+    height: 50%;
+    width: 20%;
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left:  5%;
+    margin-top: 3%;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 40px;
+    padding-left: 80px;
+}
+#test{
+     font-size: large;
+     margin-top: 10px;
+     /* margin-left: 10%; */
+     align-items: center;
+     font-size: 30px;
+     justify-content: space-around;
+}
+#text1{
+   width: 16%;
+   left: 30%;
+   position: absolute;
+   height: 10%;
+   color: #fff;
+   /* background-color: red; */
+   margin-top: -7%;
+}
+ #main1{
+    display: flex;
+ }
+.pp{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #th h1{
+    margin-left: 37vw;
+    font-size: 8vw;
+    color: #fff;
+   }
+      #theme{
+
+      height: 100vw;
+      width: 100vw;
+      padding-top: 5%;
+      background-color: rgba(58, 57, 56, 0.486);
+    }
+    #idea{
+      display: flex;
+    
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 5%;
+      height: 25%;
+      width: 80%;
+      margin-left: 10%;
+      /* background-color: darkgray; */
+    }
+    #idea5{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 2%;
+      height: 40%;
+      width: 80%;
+      margin-left: 10%;
+      /* background-color: darkgray; */
+    }
+    #idea1{
+  
+      display: flex;
+     
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 25%;
+      height: 25%;
+      width: 80%;
+      margin-left: 10%;
+      /* background-color: darkgray; */
+    }
+    #idea2{
+  
+      display: flex;
+      
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 25%;
+      height: 25%;
+      width: 80%;
+      margin-left: 10%;
+      /* background-color: darkgray; */
+    }
+    .ideaimg1{
+      position: relative;
+      height: 40%;
+      width: 60%;
+      background-color: rgba(71, 165, 134, 0.542);
+    }
+    p{
+      position: relative;
+      height: 30vw;
+      font-size: 2vw;
+      width: 70vw;
+      /* background-color: red; */
+    }
+    @media(max-width: 700px){
+      #th h1{
+        margin-left: 37vw;
+       }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ #icon1{
+    align-items: center;
+    justify-content: center;
+     display: flex;
+    height: 55%;
+    width: 30%;
+    background-color:rgb(48, 97, 242);
+    margin-top: -75px; 
+    margin-left: -105px;
+    border-radius: 40px;
+ }
+ #octlogo{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    margin-top: -45%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ #prizes .event-item {
+    position: relative;
+  }
+  #prizes .event-item .overlay-text {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #prizes .event-item .content {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: #fff;
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #prizes .event-item .content h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  #prizes .event-item .content a {
+    color: #0000ff;
+    margin-top: 10px;
+  }
+  #prizes .event-item:hover .content {
+    top: 50%;
+  }
+  #prizes .event-item .overlay-text:hover {
+    opacity: 1;
+  }
+ #themexp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   position: relative;
+   /* background-color: bisque; */
+   width: 60vw; 
+   height: 24vw;
+   margin-left: 20vw;
+   margin-top: 8vw;
+ }
+ #themexp1{
+    height: 25vw;
+    margin-top: 5%;
+    width: 25vw;
+}
+#themexp2{
+    height: 25vw;
+    margin-top: 5%;
+    width: 25vw;
+}
+#themen{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 60vw; 
+   height: 5vw;
+   margin-left: 20vw;
+   margin-top: 3%;
+    background-color: blue;
+}
+.themen1{
+    position: relative;
+    background-color: rgba(43, 109, 180, 0.66);
+    height: 3vw;
+    width: 15vw;
+    margin-left: 25vw;
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+ }
+ .themen2{
+    position: absolute;
+    border-radius: 50px;
+    background-color: rgba(43, 109, 180, 0.66);
+    height: 3vw;
+    width: 15vw;
+    margin-left: 60vw;
+    margin-top: -3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .themen1:hover{
+    background-color: #a46741;
+ }
+ .themen2:hover{
+    background-color: #a46741;
+ }
+ a{
+        color: #fff;
+        text-decoration: none;
+ }
+
+
+ #themexp1 h1{
+    /* background-color: #0000ff; */
+     color: #fff;
+     margin-left: 7vw;
+    margin-top: -44vw;
+  }
+  #themexp2 h1{
+    /* background-color: #0000ff; */
+     color: #fff;
+     width: 30vw;
+     margin-left: 3vw;
+    margin-top: -44vw;
+  }
+
+  #problem{
+    position: relative;
+    height: 60vw;
+    width: 100vw;
+    padding-top: 5%;
+    background-color: rgba(194, 168, 111, 0.678);
+  }
+  #problem h1{
+    margin-left: 43%;
+    color: #fff;
+  }
+  #th h1{
+   position: relative;
+   height: 7%;
+   width: 8%;
+font-size: 50px;
+color: #fff;
+   margin-left: 45%;
+   /* background-color: burlywood; */
+  }
+  #theme{
+    position: relative;
+    height: 100vw;
+    width: 100vw;
+    padding-top: 5%;
+    background-color: rgba(194, 168, 111, 0.678);
+  }
+  #idea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    height: 25%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: darkgray;
+  }
+  #prizess h1{
+    position: absolute;
+    top: -10%;
+    margin-left: 2%;
+    color: #fff;
+  }
+  #idea5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    height: 40%;
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: darkgray; */
+  }
+  #idea1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    height: 25%;
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: darkgray; */
+  }
+  .ideaimg1{
+    position: absolute;
+    height: 10%;
+    width: 30%;
+    background-color: rgba(71, 165, 134, 0.542);
+  }
+  .ideaimg7{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    background-color: rgba(71, 165, 134, 0.542);
+  }
+  .ideaimg7 h3{
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#octlogo{
+    position: absolute;
+    top: 235vh;
+}
+
+ .octlogo1{
+    height: 10vw;
+    width: 20vw;
+    margin-left: 20%;
+    
+    margin-right: 10%;
+ } 
+ .octlogo2{
+    height: 20vw;
+    width: 20vw;
+    
+ } 
+ #prizess{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 450vh;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    height: 35vw;
+    width: 80vw;
+    /* background-color: rgba(0, 106, 255, 0.322); */
+ }
+
+ .pri1{
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-right: 2%;
+    height: 75%;
+    width: 35%;
+    background-color: red;
+ }
+ .pri2{
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-right: 2%;
+    height: 75%;
+    width: 30%;
+    background-color: rgb(138, 51, 51);
+ }
+ #prizess1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    height: 35vw;
+    width: 80vw;
+    /* background-color: rgba(0, 106, 255, 0.322); */
+    /* background-color: rgba(0, 106, 255, 0.322); */
+ }
+ @media (max-width: 700px) {
+    .img5{
+        height: 10vw;
+        width: 17vw;
+        margin-left: 3%;
+        /* background-color: red; */
+    }
+    .mainimg5{
+        position: absolute;
+        margin-top: 120vw;
+        margin-left: -100%;
+        height: 73vw;
+        width: 70vw;
+    }
+    .mainimg2{
+            position: absolute;
+            margin-top: 107%;
+            margin-left: -100%;
+            height: 50%;
+            width: 100%;
+    }
+    #octa{
+        margin-top: -30%;
+    }
+    #octath{
+        font-size: 60px;
+        margin-left: -30%;
+        position: absolute;
+        margin-top: -100vw;
+    }
+    #navdha{
+        font-size: 50px;
+        position: absolute;
+        margin-top: -90vw;
+        margin-left: -5%;
+    }
+    #year{
+        font-size: 40px;
+        position: absolute;
+        margin-left: 35%;
+        margin-top: -75vw;
+    }
+    #aboutl img{
+     height: 75vw;
+     object-fit: cover;
+     width: 80vw;
+     margin-left: 13%;
+     /* background-color: red; */
+    }
+    #aboutr{
+        margin-left: -150%;
+        margin-top: 80%;
+        height: 80vw;
+        width: 100vw;
+        /* background-color: red; */
+    }
+    #aboutr h1{
+        position: absolute;
+        /* background-color: beige; */
+        margin-left: 100vw;
+        margin-top: -40vw;
+        font-size: 30px;
+    }
+    #aboutr p{
+        margin-top: 30vw;
+        margin-left:80vw;
+        font-size: medium;
+        height: 50vw;
+        width: 80vw;
+        /* background-color: red; */
+         text-align: center;
+    }
+    #aboutr h2{
+        margin-left: 80vw;
+        height: 10vw;
+        width :80vw;
+        font-size: medium;
+        /* background-color: red; */
+    }
+    #video{
+        margin-top: -70vw;
+    }
+    #nav2{
+        margin-top: -50vw;
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    #navl1{
+        margin-top: -30vw;
+    }
+    #navl2{
+        margin-top: 10vw;
+        margin-left: -10%;
+    }
+    #navl3{
+        margin-top: 10vw;
+        margin-left: -15%;
+    }
+    #navl4{
+        margin-top: 10vw;
+        margin-left: -6%;
+    }
+    #navl1 h2{
+        font-size: large;
+    }
+    #navl1 svg{
+        height: 30px;
+     }
+     #navl2 svg{
+        height: 30px;
+     }
+     #navl3 svg{
+        height: 30px;
+     }
+     #navl4 svg{
+        height: 30px;
+     }
+    #navl2 h2{
+        font-size: large;
+    }
+    #navl3 h2{
+        font-size: large;
+    }
+    #navl4 h2{
+        font-size: large;
+    }
+    #poc{
+        margin-top: 30%;
+    }
+
+    header{
+        /* margin-top: 60vw; */
+        display: none;
+    }
+  #event h1{
+    margin-top: 20%;
+    margin-left: 15vw;
+    height: 10vw;
+    width: 80vw;
+    /* background-color: red; */
+  }
+  .regp{
+    margin-top: 70vw;
+    height: 100vw;
+    width: 100vw;
+   }
+   .regpd1{
+     height: 80vw;
+     width: 100vw;
+    margin-left: -12%;
+    margin-top: -60%;
+    background-color: rgba(41, 41, 43, 0.316);
+   }
+   .regpd2{
+     margin-top: 10vw;
+     margin-left: 10vw;
+   }
+    .regp hr{
+     margin-left: -10vw;
+     width: 98vw;
+     margin-top: -5vw;
+    }
+    .regpd1 h2{
+     padding-top: 5%;
+    }
+    .regpd3{
+     margin-left: -3vw;
+     /* background-color: red; */
+     height: 50vw;
+     width: 80vw;
+    }
+    .regp{
+        margin-top: 70vw;
+        height: 100vw;
+        width: 100vw;
+       }
+       .regpd1{
+         height: 80vw;
+         width: 100vw;
+        margin-left: -10%;
+        margin-top: -60%;
+        background-color: rgba(41, 41, 43, 0.316);
+       }
+       #prizess h1{
+        font-size: 2vw;
+       }
+       #evo{
+        font-size: 6vw;
+        margin-left: 2vw;
+        width: 120vw;
+        /* background-color: rebeccapurple; */
+       }
+       .regpd2{
+         margin-top: -120vw;
+         margin-left: 10vw;
+       }
+        .regp hr{
+            margin-left: -10vw;
+            width: 98vw;
+            margin-top: -5vw;
+        }
+        .regpd1 h2{
+         padding-top: 5%;
+         margin-left: 37%;
+        }
+        .regpd3{
+         margin-left: -3vw;
+         /* background-color: red; */
+         height: 50vw;
+         width: 80vw;
+        }
+        #hrr{
+            margin-left: -10vw;
+            width: 98vw;
+            margin-top: 10vw;
+        } 
+ #process{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -34%;
+    width: 90vw;
+ }
+   #faq{
+     margin-top: 30vw;
+     margin-left: 27vw;
+   }
+   #faq h1{
+    margin-left: -7%;
+   }
+   .faqm1{
+    margin-top: 10vw;
+    margin-left: -26vw;
+    /* background-color: #0000ff; */
+    display: flex;
+    height: 150vw;
+    flex-direction: column;
+   }
+   .space{
+    padding-left: 15%;
+   }
+   .faqm2{
+    margin-top: 250vw;
+    margin-left: -20vw;
+    display: flex;
+    flex-direction: column;
+   }
+   .faq1 h2{
+     position: absolute;
+     margin-top: 2%;
+     /* background-color: red; */
+     height: 20vw;
+     width: 60vw;
+    }
+    .faq1{
+     /* background-color: red; */
+     height: 80vw;
+     width: 90vw;
+     margin-left: -4%;
+    }
+    .faq1 p{
+     position: relative;
+     margin-top: 13%;
+     width: 70vw;
+     font-size: 3vw;
+     background-color: transparent;
+    }
+    #faq11{
+        margin-top: 24vw;
+    }
+    
+        .faq2{
+            margin-top: -35vw;
+            height: 80vw;
+            width: 90vw;
+            margin-left: 17%;
+        }
+        .faq2 h2{
+            backdrop-filter: blur(0px) saturate(200%);
+            -webkit-backdrop-filter: blur(0px) saturate(200%);
+            background-color: rgba(17, 25, 40, 0.55);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.125);
+            width: 70vw;
+            padding-left: 2%;
+            text-align: center;
+            margin-top: 5%;
+        }
+        .faq2 p{
+            margin-top: 10%;
+            text-align: center;
+            font-size: 3vw;
+            margin-left: 3%;
+            width: 70vw;
+           }
+        .faq5{
+            margin-top: -40vw;
+            height: 80vw;
+            width: 90vw;
+            margin-left: 17%;
+        }
+        .faq5 h2{
+            backdrop-filter: blur(0px) saturate(200%);
+            -webkit-backdrop-filter: blur(0px) saturate(200%);
+            background-color: rgba(17, 25, 40, 0.55);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.125);
+            width: 70vw;
+            height: 20vw;
+            padding-left: 2%;
+            margin-left: 3%;
+            margin-top: 15%;
+            text-align: center;
+        }
+        .faq5 p{
+            margin-top: -6%;
+            text-align: center;
+            font-size: 3vw;
+            margin-left: 3%;
+            width: 70vw;
+            background-color: transparent;
+           }
+        #info{
+            margin-top: 10vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .ibox{
+            margin-top: 5%;
+            margin-left: -25%;
+           height: 100vw;
+           width: 80vw;
+        }
+         #prizess{
+         margin-top: -120vw;
+        }
+        #nav2{
+            margin-top: 50%;
+        }
+        #themexp{
+            margin-top: 45%;
+        }
+        #themexp1 h1{
+            margin-top: -50vw;
+            font-size: x-large;
+            margin-left: 5%;
+        }
+        #themexp2 img{
+            margin-left: 25%;
+        }
+        #themexp2 h1{
+            margin-top: -55vw;
+            font-size: x-large;
+            margin-left: 5%;
+        }
+        .themen1{
+            margin-top: 8%;
+            margin-left: 18%;
+            /* background-color: red; */
+            height: 10vw;
+            width: 30vw;
+        }
+        .themen2{
+            margin-left: 58%;
+            margin-top: -10%;
+            /* background-color: red; */
+            height: 10vw;
+            width: 30vw;
+        }
+    #regist{
+  position: relative;
+  margin-left: 90vw;
+  background-color: red;
+   width: 40vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50px;
+   background-color: rgb(0, 149, 255);
+    }
+    #octlogo{
+        margin-top: 5%
+    }
+
+    }

@@ -42,7 +42,7 @@ html,body{
     overflow: hidden;
 }
 #about{
-    margin-top: 20%;
+    margin-top: 30%;
     display: flex;
     height: 80%;
     width: 100%;
@@ -79,13 +79,13 @@ html,body{
     margin-top: 45%;
 }
 #aboutr h2{
-    margin-top: -8%;
+    margin-top: 2%;
     margin-left: 4%;
     color: white;
 }
 #regis{
     margin-left: 20%;
-    margin-top: 14%;
+    margin-top: 4%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,9 +93,6 @@ html,body{
     height: 6%;
     width: 20%;
     background-color: rgb(0, 149, 255);
-}
-#regist{
-    display: none;
 }
 #regis a{
     text-decoration: none;
@@ -145,6 +142,7 @@ html,body{
    color: #fff;
    /* background-color: red; */
    height: 70%;
+
 }
 #navl2 svg{
    margin-left: 0%;
@@ -694,115 +692,6 @@ html,body{
  #main1{
     display: flex;
  }
-.pp{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
- #th h1{
-    margin-left: 37vw;
-    font-size: 8vw;
-    color: #fff;
-   }
-      #theme{
-
-      height: 100vw;
-      width: 100vw;
-      padding-top: 5%;
-      background-color: rgba(58, 57, 56, 0.486);
-    }
-    #idea{
-      display: flex;
-    
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 5%;
-      height: 25%;
-      width: 80%;
-      margin-left: 10%;
-      /* background-color: darkgray; */
-    }
-    #idea5{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 2%;
-      height: 40%;
-      width: 80%;
-      margin-left: 10%;
-      /* background-color: darkgray; */
-    }
-    #idea1{
-  
-      display: flex;
-     
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 25%;
-      height: 25%;
-      width: 80%;
-      margin-left: 10%;
-      /* background-color: darkgray; */
-    }
-    #idea2{
-  
-      display: flex;
-      
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 25%;
-      height: 25%;
-      width: 80%;
-      margin-left: 10%;
-      /* background-color: darkgray; */
-    }
-    .ideaimg1{
-      position: relative;
-      height: 40%;
-      width: 60%;
-      background-color: rgba(71, 165, 134, 0.542);
-    }
-    p{
-      position: relative;
-      height: 30vw;
-      font-size: 2vw;
-      width: 70vw;
-      /* background-color: red; */
-    }
-    @media(max-width: 700px){
-      #th h1{
-        margin-left: 37vw;
-       }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
  #icon1{
     align-items: center;
@@ -981,7 +870,7 @@ color: #fff;
     height: 100vw;
     width: 100vw;
     padding-top: 5%;
-    background-color: rgba(194, 168, 111, 0.678);
+    /* background-color: rgba(194, 168, 111, 0.678); */
   }
   #idea{
     display: flex;
@@ -991,7 +880,7 @@ color: #fff;
     height: 25%;
     width: 80%;
     margin-left: 10%;
-    background-color: darkgray;
+    /* background-color: darkgray; */
   }
   #prizess h1{
     position: absolute;
@@ -1020,8 +909,8 @@ color: #fff;
     /* background-color: darkgray; */
   }
   .ideaimg1{
-    position: absolute;
-    height: 10%;
+    position: relative;
+    height: 100%;
     width: 30%;
     background-color: rgba(71, 165, 134, 0.542);
   }
@@ -1073,7 +962,7 @@ color: #fff;
     display: flex;
     justify-content: space-around;
     position: relative;
-    margin-top: 450vh;
+    margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 10%;
     height: 35vw;
